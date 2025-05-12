@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Shopping List</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script1.js"></script>
+    <script src="./script1.js" async></script>
   </head>
   <body>
     <div class="body">
@@ -14,13 +14,17 @@
 
       <div class="input">
         <label for="item">Enter a new item:</label>
-        <input type="text" name="item" id="item">
-        <button>Add Item</button>
+        <input class="item-input" type="text" name="item" id="item">
+        <button class="buttons">Add Item</button>
       </div>
 
-      <ul></ul>
+      <ul class="slist">
+
+      </ul>
 
       <div class="list"></div>
+
+      <div class="footer"></div>
     </div>
   </body>
 </html>
