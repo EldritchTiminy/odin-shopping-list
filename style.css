@@ -17,3 +17,36 @@ html {
   align-items: center;
   min-height: 100vh;
 }
+
+/* Header Styling */
+
+.header {
+  border-bottom: solid 3px black;
+  margin: 24px 0;
+}
+
+/* Input Styling */
+
+.input {
+  margin: 0 0 24px 0;
+}
+
+/* Shopping List Styling */
+
+.slist {
+  display: flex;
+  flex-direction: column;
+}
+
+.slist li {
+  min-width: 120px;
+  padding: 2px;
+}
+
+li button {
+  float: right;
+}
+
+li span {
+  display: inline-block;
+}
